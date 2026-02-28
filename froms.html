@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lange="es">
+    <head>
+        <meta charset="UTF-8">
+        <TItle>Formulatrios</TItle>
+
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <from action="#" method ="get">
+            <label for="nombre">Ingrese su nombre:</label>
+            <input type="text" name="nombre" id="nombreId" placehoder="Eje: Pepe">
+            <br>
+            <label for="pwd">Contraseña</label>
+            <input type="password" name="pwd" id="pwd" required><!--Contraseñas -->
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="1" max="200">
+            <br>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+           <label for="fechaHora">Fecha hora </label>
+           <input type="datetime-local" name="fechaHora" id="fechaHora"><!--Fecha y hora-->
+           <br>
+           <label for="Color">Color</label>
+           <input type="color" name="color" id="color">
+           <br>
+           <label for="email">Email</label>
+           <input type="email" name="email" id="email" placeholder="example@email.com">
+           <br>
+           <label for="mes">Mes</label>
+           <input type="month" name="mes" id="mes">
+           <br>
+            <label for="semana">Semana</label>
+           <input type="week" name="semana" id="semana">
+           <br>
+            <label for="archivo">Archivo</label>
+           <input type="file" name="archivo" id="archivo">
+           <br>
+           <label for="check">Checkbox</label>
+           <label>
+            <input type="checkbox" name="ejemploCheck 1"> opcion 1
+           </label>
+           <label>
+            <input type="checkbox" name="ejemploCheck 2" cheched>opcion 2
+           </label>
+           <br>
+             <label for="radio">Radiobutton</label>
+           <label>
+            <input type="radio" name="radio1"value="1"> opcion 1
+           </label>
+           <label>
+            <input type="checkbox" name="radio1" value="2"> opcion 2
+           </label>
+           <br>
+           <label for="ciudad">Ciudad</label>
+           <select name="ciudad" id="ciudad">
+            <option value="1">Tunja</option>
+            <option value="2">Duitama</option>
+            <option value="3">Sogamoso</option>
+           </select>
+           <br>
+           <label for="Observaciones">Observaciones</label><!--Tabla de observacion-->
+           <textarea name="Observaciones" id="observaciones " cols="60" rows="5"></textarea>
+           <br>
+           <input type="submit" value="Aceptar"><!--solo acepta texto-->
+           <button type="submit">Aceptar</button><!--En este se puede colocar mas cosas como imagenes colores todo es -->
+
+        </from>
+        <div>
+            esto es un div....
+        </div>
+        <main>
+            esto es main .... <!--Contenido de la pagina -->
+        </main>
+        <selection>
+            Esto es selection...<!---se puede repetir -->
+        </selection>
+        <article>
+            esto es un articule....
+        </article>
+        <nav>
+            esto es nav....
+        </nav>
+        <fieldset>
+            <legend>Controles</legend>
+            <p>esto es un control....</p>
+        </fieldset>
+        <footer>
+            esto es un pie de pagina.....
+        </footer>
+        <header>
+            esto es un header.....
+        </header>
+    
+    
+    </body>
+</html>
